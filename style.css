@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100vw;
+    background-image: url( "image/img1.jpg");
+    background-size:auto;
+    background-position:center;
+    height: 109vh;
+
+}
+.navbar{
+    width: 1530px;
+    height: 75px;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.363);
+
+}
+.icon{
+    width: 200px;
+    height: 70px;
+   float: left;
+
+}
+.logo{
+    color: #ff5100;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    
+}
+.menu{
+    width: 677px;
+    float: left;
+    height: 70px;
+}
+ul{
+    /* float: left; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ ul li{
+   list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: #ff5100;
+
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 240px;
+    margin-top: 14px;
+}
+.srch{
+    width: 233px;
+    height: 42px;
+    background: transparent;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    border-right: none;
+    border-left:none;
+    border:2px solid #ff5100;
+   outline: none;
+
+}
+.btn{
+    width: 90px;
+    height: 42px;
+    border-radius: 20px;
+    padding: 4px;
+    box-sizing: border-box;
+    font-weight: 100px;
+    background-color: #e45c1d;
+    color: #fff;
+    border:2px solid #ff5100;
+
+}
+.btn:hover{
+background-color: #ff5100;
+}
+.content{
+/* background-color:rgba(0, 0, 0, 0.4); */
+color: #fff;
+width: 521px;
+height: 300px;
+margin-left: 100px;
+margin-top: 130px;
+padding: 20px;
+position: fixed;
+}
+.content .para{
+padding-left: 20px;
+padding-bottom: 25px;
+letter-spacing: 1.2px;
+line-height: 30px;
+font-family: arial;
+
+}    
+ .content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+
+ }  
+ .content .cntct{
+    width: 160px;
+    height: 40px;
+    background-color: #ff5100;
+    border: none;
+    border-radius: 10px;
+    font-size:18px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    cursor: pointer;
+ } 
+ .content .cntct a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+ }
+
+ .cntct:hover{
+    background-color: #fff;
+ }
+ span{
+    color: #ff5100;
+    font-size: 60px;
+ }
+ .form{
+    width: 300px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position:absolute;
+    left: 930px;
+    top: 23px;
+    border-radius: 10px;
+    padding: 3px;
+
+
+ }
+ .form h2{
+    width: 180px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff5100;
+    font-size: 22px;
+    background-color:#fff;
+    border-radius: 10px;
+    margin-left: 48px;
+    margin-top: 20px;
+    padding: 9px;
+
+
+ }
+ .form input{
+    width: 93%;
+    height: 45px;
+    margin:5px;
+    padding: 3px;
+    text-align: center;
+    border-bottom: 2px solid #ff5100;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 30px;
+
+
+ }
+ .form .login{
+    width: 100px;
+    margin-top: 18px;
+    margin-left: 93px;
+    height: 40px;
+    
+    padding: 3px;
+    background-color: #ff5100;
+    border: none;
+    border-radius: 5px;
+
+ }
+ .form .login a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+ }
+ .form .login:hover{
+    background-color: #fff;
+    animation-delay: 2s;
+    
+
+ }
+ 
+ 
+ .form .link{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 8px;
+    line-height: 1.5;
+ }
+ .link a{
+    text-decoration: none;
+    color: #ff5100;
+    margin-left: 34px;
+ }
+ .form .lgw{
+  margin-left: -8px;
+  text-align: center;
+  font-size: 20px;
+
+ }
